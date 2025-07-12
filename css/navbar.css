@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 50px;
+    background-color: peachpuff;
+    padding: 15px 20px;
+    font-size: 2rem;
+
+    :hover{
+        background-color: lightcoral;
+    }
+    
+}
+
+span{
+    padding: 0px 18px;
+}

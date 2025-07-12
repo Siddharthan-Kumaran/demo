@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      div {
+        border: solid;
+        transition: all 0.2s 0.2s;
+      }
+
+      #bb {
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+      }
+
+      #bb:hover {
+        background-color: black;
+        transform: translate(200px, 200px);
+      }
+
+      #bc {
+        height: 100px;
+        width: 100px;
+        background-color: palevioletred;
+      }
+
+      #bc:hover {
+        background-color: black;
+        border-radius: 50%;
+        transform: skew(45deg);
+      }
+
+      #bd {
+        height: 100px;
+        width: 100px;
+        background-color: palevioletred;
+  
+      }
+
+      #bd:hover {
+        background-color: black;
+        height: 150px;
+        transition-timing-function: ease-in;
+        transform: rotate(360deg);
+      }
+
+      #be {
+        height: 100px;
+        width: 100px;
+        background-color: palevioletred;
+      }
+
+      #be:hover {
+        background-color: black;
+        width: 150px;
+        transition-timing-function: ease-in;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bb"></div>
+    <div id="bc"></div>
+    <div id="bd"></div>
+    <div id="be"></div>
+  </body>
+</html>

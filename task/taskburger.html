@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0%;
+            padding: 0%;
+        
+        }
+
+    body{
+        height:100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #container{
+        border: 3px solid black;
+        height: 500px;
+        width: 500px;
+        background-color: rgb(235, 168, 0);
+    }
+
+    #ff{
+        position: relative;
+        top: 165px; 
+        right: 140px;
+    }
+
+    #brg{
+        position: relative;
+        top:200px;
+        left:155px;
+        z-index: 1;
+    }
+
+    #ck{
+        position: relative;
+        top: 190px;
+        right: 70px;
+    }
+
+   #pr{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:100px;
+    left:40px;
+    z-index: 1;
+   }
+   #in{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: white dotted;
+    background-color: crimson;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   #dl{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img id="brg" src="/image/Burger-removebg-preview.png" alt="no" height="200px" width="200px">
+        <img id="ff" src="/image/fries-removebg-preview.png" alt="ff" height="200px">
+        <img id="ck" src="/image/coke-removebg-preview.png"  alt="ck" height="250px" width="100px">
+        <div id="pr">
+            <div id="in"><span id="dl">$5.</span><span>49</span> <br> ONLY</div>
+        </div>
+    </div>
+    
+</body>
+</html>

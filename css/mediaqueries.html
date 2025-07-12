@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 14px;
+        padding: 0;
+      }
+
+      @media print {
+        p {
+          color: red;
+          border: 2px solid black;
+          background-color: blue;
+          font: 20px;
+        }
+        h1 {
+          background-color: yellow;
+        }
+      }
+
+      @media screen {
+        h2 {
+          background-color: yellow;
+        }
+      }
+
+      @media all {
+        h3 {
+          background-color: green;
+        }
+      }
+
+      /* @media screen and (width > 500px) and (width < 700px)*/
+      @media screen and (min-width: 500px) and (max-width: 700px) {
+        h4 {
+          background-color: aqua;
+        }
+        h4::before {
+          content: "TABLET ";
+        }
+      }
+
+      /* @media screen and (width > 700px) and (width<1000px)*/
+      @media screen and (min-width: 700px) and (max-width: 1000px) {
+        h4 {
+          background-color: gray;
+        }
+        h4::before {
+          content: "LAPTOP ";
+        }
+      }
+
+      @media screen and (width > 1000px) {
+        h4 {
+          background-color: peru;
+        }
+        h4::before {
+          content: "DESKTOP ";
+        }
+      }
+
+      @media screen and (orientation: portrait) {
+        h1 {
+          background-color: lightblue;
+          color: black;
+        }
+        h1::before {
+          content: "PORTRAIT ";
+        }
+      }
+
+      @media screen and (orientation: landscape) {
+        h1 {
+          background-color: lightgreen;
+          color: black;
+        }
+        h1::before {
+          content: "LANDSCAPE ";
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>MEDIA QUERIES</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quas
+        delectus minus perferendis facere voluptates, odio voluptatem rem nihil
+        asperiores repudiandae officiis voluptas ipsa reprehenderit commodi
+        omnis, praesentium non quam eaque dolor, similique placeat voluptatum!
+        Ipsa quia, dolorem sapiente voluptatem quod vitae repudiandae distinctio
+        pariatur illum magnam. Dolor omnis nemo ipsa numquam quibusdam pariatur
+        natus veniam magnam possimus cum? Esse explicabo laborum deserunt
+        veritatis voluptates modi quis exercitationem veniam? Aut enim ad, modi,
+        praesentium iure, facere error nam qui delectus corporis voluptatem
+        doloribus optio fugit. Sequi aspernatur modi similique recusandae
+        dolorem ea unde aperiam neque quam, excepturi, aliquam dolorum expedita
+        odit ipsum enim ipsa provident. Exercitationem sed molestias nulla minus
+        cupiditate recusandae aut harum quisquam quod veritatis! Aliquid,
+        quidem. Quidem obcaecati facere in facilis cupiditate nisi molestias ut
+        tempora mollitia at dicta, sunt itaque quisquam dolorum eligendi?
+        Commodi, pariatur dicta! Accusamus repellendus tempore, aut culpa ad,
+        illum magnam a delectus assumenda impedit et! Dolor enim ullam error
+        qui, ducimus distinctio autem esse? Harum porro, libero fugiat
+        blanditiis iste ipsum, repellat consectetur provident vitae quasi autem
+        quisquam dignissimos, unde optio repudiandae molestias ipsa voluptatibus
+        expedita voluptatum velit tempore voluptates. Fuga saepe sint in labore
+        eaque quia incidunt, quasi reiciendis, rerum, impedit molestiae nihil
+        quisquam aspernatur. Error aperiam quod ad voluptas. Facilis dolorum
+        accusantium corporis sed, praesentium ipsa? Blanditiis molestias nobis
+        est numquam fuga modi doloribus, hic vel natus laboriosam alias quidem
+        ipsam quia ut. Fugiat quos vero a doloribus! Omnis odit corrupti,
+        placeat veritatis amet debitis explicabo vero eaque minima vel sequi
+        natus, animi ad facilis repel voluptatum molestiae eaque autem odit
+        nisi? Dolore veniam et, natus nulla perspiciatis provident nihil est
+        dolores doloremque.
+      </p>
+      <h2>MEDIA SCREEN</h2>
+      <h3>MEDIA ALL</h3>
+      <h4>SCREEN</h4>
+    </section>
+  </body>
+</html>

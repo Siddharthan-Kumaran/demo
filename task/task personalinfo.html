@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task</title>
+  </head>
+  <body>
+    <h1>Personal Info</h1>
+    <form action="">
+      <table cellspacing="4" cellpadding="10">
+        <tr>
+          <td><label for="name">USERNAME :</label></td>
+          <td><input type="text" name="name" id="name" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="mail">E-MAIL :</label></td>
+          <td><input type="email" name="mail" id="name" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="psw">PASSWORD :</label></td>
+          <td><input type="password" name="psw" id="psw" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="num"> PH. NUMBER : </label></td>
+          <td><input type="number" name="num" id="num" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="dob">D.O.B :</label></td>
+          <td><input type="date" name="dob" id="dob" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="age">AGE :</label></td>
+          <td><input type="number" name="age" id="age" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="lang">LANGUAGE :</label></td>
+          <td>
+            <select name="lang" id="lang">
+              <option hidden value="">Select Language</option>
+              <optgroup label="SOUTH INDIAN LANNGUAGE">
+                <option value="TAMIL">TAMIL</option>
+                <option value="MALAYALAM">MALAYALAM</option>
+                <option value="TELUGU">TELEGU</option>
+                <option value="KANNADA">TAMIL</option>
+              </optgroup>
+
+              <optgroup label="NORTH INDIAN LANNGUAGE">
+                <option value="HINDI">HINDI</option>
+                <option value="URDU">URDU</option>
+                <option value="PUNJABI">PUNJABI</option>
+                <option value="HARYANVI">HARYANVI</option>
+              </optgroup>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="gen">GENDER :</label></td>
+          <td>
+            <input type="radio" name="gen" id="gen" />MALE
+            <input type="radio" name="gen" id="gen" />FEMALE
+            <input type="radio" name="gen" id="gen" />OTHERS
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="loc">LOCATION :</label></td>
+          <td><input type="url" name="loc" id="loc" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="add">ADDRESS :</label></td>
+          <td><textarea name="add" id="add" rows="2" cols="30"></textarea></td>
+        </tr>
+
+        <tr>
+          <td><label for="res">RESUME :</label></td>
+          <td><input type="file" name="res" id="res" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="skills">SKILLS :</label></td>
+          <td>
+            <input type="checkbox" name="skills" value="WEB TECH" />WEB TECH
+            <input type="checkbox" name="skills" value="JAVA" />JAVA
+            <input type="checkbox" name="skills" value="PYTHON" />PYTHON
+            <input type="checkbox" name="skills" value="SQL" />SQL
+            <input type="checkbox" name="skills" value="TESTING" />TESTING
+          </td>
+        </tr>
+
+        <tr>
+          <td><button>SUBMIT</button></td>
+          <td><button>CLEAR</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

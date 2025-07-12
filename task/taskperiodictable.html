@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Periodic Table</title>
+
+    <style>
+      td:nth-child(1) {
+        background-color: orange;
+      }
+      td:nth-child(2) {
+        background-color: rgba(252, 70, 5, 0.959);
+      }
+
+      td:nth-child(3) {
+        background-color: rgb(17, 64, 192);
+      }
+
+      #blud{
+        background-color: rgb(14, 14, 63);
+      }
+
+      /*tr + tr{
+        background-color: blue;
+      }*/
+
+      #gray{
+        background-color: gray;
+      }
+
+      #pink{
+        background-color: rgb(235, 11, 86) ;
+      }
+
+      #sky{
+        background-color: rgb(57, 173, 219);
+      }
+
+      #green {
+        background-color: rgb(40, 167, 40);
+      }
+
+      #orange {
+        background-color: rgb(248, 7, 7);;
+      }
+
+      tr:nth-child(3)+tr:nth-child(4){
+        background-color: rgb(17, 64, 192);
+      }
+
+      tr:nth-child(4)+tr:nth-child(5){
+        background-color: rgb(17, 64, 192);
+      }
+
+      tr:nth-child(5)+tr:nth-child(6){
+        background-color: rgb(17, 64, 192);
+      }
+      tr:nth-child(6)+tr:nth-child(7){
+        background-color: rgb(17, 64, 192);
+      }
+
+      #og{
+        color: white ;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body style="background-color: peachpuff;"><center>
+    <h1>PERIODIC TABLE</h1><BR><BR></BR></BR>
+    <table
+      border="none"
+      cellspacing="0"
+      cellpadding="20"
+      style="border: none;"
+      id="og"
+      
+    >
+      <tr class="r1">
+        <td style="background-color: rgb(26, 150, 150)">H</td>
+        <td colspan="16" style="border: none;background-color: white;"></td>
+        <td style="background-color: blueviolet">He</td>
+      </tr>
+
+      <tr>
+        <td>Li</td>
+        <td>Be</td>
+        <td colspan="10" style="border: none;background-color: white;"></td>
+        <td id="gray">B</td>
+        <td id="pink">C</td>
+        <td id="pink">N</td>
+        <td id="pink">O</td>
+        <td id="sky">F</td>
+        <td style="background-color: blueviolet">Ne</td>
+      </tr>
+
+      <tr>
+        <td>Na</td>
+        <td>Mg</td>
+        <td colspan="10" style="border: none;background-color: white;"></td>
+        <td id="blud">Al</td>
+        <td id="gray">Si</td>
+        <td id="pink">P</td>
+        <td id="pink">S</td>
+        <td id="sky">Cl</td>
+        <td style="background-color: blueviolet">Ar</td>
+      </tr>
+
+      <tr>
+        <td>K</td>
+        <td>Ca</td>
+        <td>Sc</td>
+        <td>Ti</td>
+        <td>V</td>
+        <td>Cr</td>
+        <td>Mn</td>
+        <td>Fe</td>
+        <td>Co</td>
+        <td>Ni</td>
+        <td>Cu</td>
+        <td>Zn</td>
+        <td id="blud">Ga</td>
+        <td id="gray">Ge</td>
+        <td id="gray">As</td>
+        <td id="pink">Se</td>
+        <td id="sky">Br</td>
+        <td style="background-color: blueviolet">Kr</td>
+      </tr>
+
+      <tr>
+        <td>Rb</td>
+        <td>Sr</td>
+        <td>Y</td>
+        <td>Zr</td>
+        <td>Nb</td>
+        <td>Mo</td>
+        <td>Tc</td>
+        <td>Ru</td>
+        <td>Rh</td>
+        <td>Pd</td>
+        <td>Ag</td>
+        <td>Cd</td>
+        <td id="blud">In</td>
+        <td id="blud">Sn</td>
+        <td id="gray">Sb</td>
+        <td id="gray">Te</td>
+        <td id="sky">I</td>
+        <td style="background-color: blueviolet">Xe</td>
+      </tr>
+
+      <tr>
+        <td>Cs</td>
+        <td>Ba</td>
+        <td style="background-color: rgb(248, 7, 7);">57-71</td>
+        <td>Hf</td>
+        <td>Ta</td>
+        <td>W</td>
+        <td>Re</td>
+        <td>Os</td>
+        <td>Ir</td>
+        <td>Pt</td>
+        <td>Au</td>
+        <td>Hg</td>
+        <td id="blud">Tl</td>
+        <td id="blud">Pb</td>
+        <td id="blud">Bi</td>
+        <td id="gray">Po</td>
+        <td id="sky">At</td>
+        <td style="background-color: blueviolet">Rn</td>
+      </tr>
+
+      <tr>
+        <td>Fr</td>
+        <td>Ra</td>
+        <td style="background-color: green"></td>
+        <td>Rf</td>
+        <td>Db</td>
+        <td>Sg</td>
+        <td>Bh</td>
+        <td>Hs</td>
+        <td>Mt</td>
+        <td>Ds</td>
+        <td>Rg</td>
+        <td>Cn</td>
+        <td id="blud">Nh</td>
+        <td id="blud">Fl</td>
+        <td id="blud">Mc</td>
+        <td id="blud">Lv</td>
+        <td id="sky">Ts</td>
+        <td style="background-color: blueviolet">Og</td>
+      </tr>
+
+      <tr >
+        <td colspan="18" style="border: none;background-color: white;"></td>
+      </tr>
+
+      <tr id="orange">
+        <td colspan="2" style="border: none;background-color: white;"></td>
+        <td style="background-color: rgb(248, 7, 7);">La</td>
+        <td style="background-color: rgb(248, 7, 7) ;">Ce</td>
+        <td>Pr</td>
+        <td>Nd</td>
+        <td>Pm</td>
+        <td>Sm</td>
+        <td>Eu</td>
+        <td>Gd</td>
+        <td>Tb</td>
+        <td>Dy</td>
+        <td>Ho</td>
+        <td>Er</td>
+        <td>Tm</td>
+        <td>Yb</td>
+        <td>Lu</td>
+        <td colspan="2" style="border: none;background-color: white;"></td>
+      </tr>
+
+      <tr id="green">
+        <td colspan="2" style="border: none;background-color: white;"></td>
+        <td id="green">Ac</td>
+        <td id="green">Th</td>
+        <td>Pa</td>
+        <td>U</td>
+        <td>Np</td>
+        <td>Pu</td>
+        <td>Am</td>
+        <td>Cm</td>
+        <td>Bk</td>
+        <td>Cf</td>
+        <td>Es</td>
+        <td>Fm</td>
+        <td>Md</td>
+        <td>No</td>
+        <td>Lr</td>
+        <td colspan="2" style="border: none;background-color: white;"></td>
+      </tr>
+    </table></center>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task grid</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+
+      section {
+        height: 800px;
+        width: 800px;
+        border: solid;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        
+        
+
+        background-color: lightsteelblue;
+
+        grid-template-columns: 20% 35% 25% 20%;
+
+        grid-template-rows: 25% 35% 25% 15%;
+        /*
+        grid-template-columns: 25% 15% 25% 25% 10%;
+
+        grid-template-columns: auto auto auto;
+
+        grid-template-columns: 1fr 2fr 3fr;
+
+        grid-template-columns: repeat(3, 1fr); */
+
+        gap: 8px;
+      }
+
+      div:nth-child(1) {
+        background-color: dodgerblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        grid-column-start: 1;
+        grid-column-end: 5;
+      }
+      div:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        grid-row-start: 2 ;
+        grid-row-end: 4;
+      }
+      div:nth-child(3) {
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+            
+      }
+      div:nth-child(4) {
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      div:nth-child(5) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        grid-column-start: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+      }
+      div:nth-child(6) {
+        background-color: peachpuff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      div:nth-child(7) {
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      div:nth-child(8) {
+        background-color: dodgerblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 5;
+      }
+
+    
+      /* 
+      div:nth-child(9) {
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        
+      } */
+    </style>
+  </head>
+  <body>
+    <section>
+      <div>.header</div>
+      <div></div>
+      <div>.main-content</div>
+      <div>.sidebar</div>
+      <div></div>
+      <div>.twin</div>
+      <div>.twin</div>
+      <div>.footer</div>
+      <!--<div>9</div>-->
+    </section>
+  </body>
+</html>
